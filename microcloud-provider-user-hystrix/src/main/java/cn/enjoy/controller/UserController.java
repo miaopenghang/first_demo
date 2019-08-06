@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @RequestMapping("/get/{name}")
     @HystrixCommand
-    public  Object get(@PathVariable("name")String name) {
+    public Object get(@PathVariable("name") String name) {
         Users users = new Users();
         users.setName(name);
         users.setAge(18);
