@@ -1,3 +1,0 @@
-spring:
-  application:
-    name: microcloud-config-eureka-client

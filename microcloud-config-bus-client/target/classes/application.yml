@@ -1,3 +1,0 @@
-spring:
- application:
-  name: microcloud-config-client # 编写应用的名称
